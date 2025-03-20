@@ -9,7 +9,7 @@ Add controls to Facebook Reels (Download, Progress bar, Volume)
 ## Installation
 
 ### Chrome WebStore : 
-Pending approvation
+awaiting approval
 
 
 ### Manual :
