@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Facebook Reels Controls",
-  "version": "1.0",
-  "description": "Add controls to Facebook Reels (Download, Progress bar, Volume)",
+  "name": "Reels Controls",
+  "version": "1.1",
+  "description": "Add controls to Reels for Facebook & Instagram (Download, Progress bar, Volume)",
   "icons": {
     "16": "icons/icon-16.png",
     "48": "icons/icon-48.png",
@@ -11,9 +11,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.facebook.com/reel*",
-        "https://m.facebook.com/reel*",
-        "https://mbasic.facebook.com/reel*"
+        "https://*.facebook.com/*",
+        "https://*.instagram.com/*"
       ],
       "js": ["content.js"]
     }
