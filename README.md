@@ -1,5 +1,5 @@
 # Facebook_Reels_Controls
-Add controls to Facebook Reels (Download, Progress bar, Volume)
+Add controls to Reels for Facebook and Instagram (Download, Progress bar, Volume)
 
 
 <img width="311" alt="screenshot1" src="https://github.com/user-attachments/assets/68370823-c7d8-4699-b49c-a4807261f0a4" />
