@@ -35,7 +35,7 @@
 
   // 3. Fonction pour vérifier si la page actuelle est une page Reels (Facebook ou Instagram)
   const isReelPage = () => {
-    return /^https:\/\/(?:\w+\.)?(facebook\.com\/reel|instagram\.com\/reels)/.test(window.location.href);
+    return /^https:\/\/(?:\w+\.)?(facebook\.com\/reel|instagram\.com\/reels|youtube\.com\/shorts)/.test(window.location.href);
   };
 
   // 4. Fonction de notification
@@ -166,12 +166,7 @@
         extractFacebookVideo(html);
         break;
       case "instagram":
-        if (/^https:\/\/(?:\w+\.)?instagram\.com\/reels/.test(window.location.href)) {
-          extractInstagramVideo(html);
-        } else {
-          console.error("[Extension] La page n'est pas une page Reels Instagram");
-          showNotification("La page n'est pas une page Reels Instagram", false, 5000);
-        }
+        extractInstagramVideo(html);
         break;
       case "youtube":
       case "twitter":
